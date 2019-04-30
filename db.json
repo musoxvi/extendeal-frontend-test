@@ -1,0 +1,25 @@
+{
+    "products": [
+        {  "id": 1, "name":"escritorio-1", "imageUrl": "/images/escritorio-1.jpg", "price": 299 },
+        {  "id": 2, "name":"escritorio-2", "imageUrl": "/images/escritorio-2.jpg", "price": 299 },
+        {  "id": 3, "name":"escritorio-3", "imageUrl": "/images/escritorio-3.jpg", "price": 299 },
+        {  "id": 4, "name":"escritorio-4", "imageUrl": "/images/escritorio-4.jpg", "price": 299 },
+        {  "id": 6, "name":"monitor-1", "imageUrl": "/images/monitor-5.jpg", "price": 299 },
+        {  "id": 5, "name":"monitor-2", "imageUrl": "/images/monitor-6.jpg", "price": 299 },
+        {  "id": 7, "name":"monitor-3", "imageUrl": "/images/monitor-7.jpg", "price": 299 },
+        {  "id": 8, "name":"monitor-4", "imageUrl": "/images/monitor-8.jpg", "price": 299 },
+        {  "id": 9, "name":"notebook-1", "imageUrl": "/images/notebook-9.jpg", "price": 299 },
+        {  "id": 10, "name":"notebook-2", "imageUrl": "/images/notebook-10.jpg", "price": 299 },
+        {  "id": 11, "name":"notebook-3", "imageUrl": "/images/notebook-11.jpg", "price": 299 },
+        {  "id": 12, "name":"notebook-4", "imageUrl": "/images/notebook-12.jpg", "price": 299 },
+        {  "id": 13, "name":"silla-1", "imageUrl": "/images/silla-13.jpg", "price": 299 },
+        {  "id": 14, "name":"silla-2", "imageUrl": "/images/silla-14.jpg", "price": 299 },
+        {  "id": 15, "name":"silla-3", "imageUrl": "/images/silla-15.jpg", "price": 299 },
+        {  "id": 16, "name":"silla-4", "imageUrl": "/images/silla-16.jpg", "price": 299 },
+        {  "id": 17, "name":"teclado-1", "imageUrl": "/images/teclado-17.jpg", "price": 299 },
+        {  "id": 18, "name":"teclado-2", "imageUrl": "/images/teclado-18.jpg", "price": 299 },
+        {  "id": 19, "name":"teclado-3", "imageUrl": "/images/teclado-19.jpg", "price": 299 },
+        {  "id": 20, "name":"teclado-4", "imageUrl": "/images/teclado-20.jpg", "price": 299 }
+    ]
+}
+
