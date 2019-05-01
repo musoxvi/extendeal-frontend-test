@@ -24,14 +24,14 @@ Los requisitos son únicamente tener instalado una versión de node >= 4 y npm. 
 
 ---
 
-##Desarrollo
+## Desarrollo
 El objectivo del test es desarrollar 2 vistas utilizando la api incluida en el proyecto.
 
 La primera consiste en una lista paginada de productos con un buscador. Se debe visualizar la imagen del producto con su respectivos datos al lado, como se ve a continuación:
 
 ---
 
-##IMAGEN
+#### IMAGEN
 
 
 ---
@@ -45,7 +45,7 @@ La primera consiste en una lista paginada de productos con un buscador. Se debe 
 
 ---
 
-###Criterios de evaluación
+### Criterios de evaluación
 Se pide específicamente el uso de React. Dará un valor adicional, aunque no es obligatorio, el uso además de Redux. Adicionalmente se evaluarán los siguientes puntos:
 
 1. Utilización de patrones, buenas prácticas en el código y arquitectura acorde.
