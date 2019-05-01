@@ -17,21 +17,24 @@ Los requisitos son únicamente tener instalado una versión de node >= 4 y npm. 
 
 ---
 
-## server
+## Server
 
 - `api/products`
 - `node server.js`
+
+---
 
 ##Desarrollo
 El objectivo del test es desarrollar 2 vistas utilizando la api incluida en el proyecto.
 
 La primera consiste en una lista paginada de productos con un buscador. Se debe visualizar la imagen del producto con su respectivos datos al lado, como se ve a continuación:
 
+---
 
 ##IMAGEN
 
 
-
+---
 
 | Método HTTP| Ruta| Descripción|
 | ----- | ---- |  ---- |
@@ -40,7 +43,7 @@ La primera consiste en una lista paginada de productos con un buscador. Se debe 
 | POST | /api/products | Crea un producto nuevo. Debe incluir el header `Content-Type: application/json`, y los parámetros en formato JSON. Ej: `{"name": "Algún nombre","price": "Algun precio","imageUrl": "Alguna URL"}` |
 | DELETE | /api/products/id | Elimina el producto correspondiente al id dado. |
 
-
+---
 
 ###Criterios de evaluación
 Se pide específicamente el uso de React. Dará un valor adicional, aunque no es obligatorio, el uso además de Redux. Adicionalmente se evaluarán los siguientes puntos:
@@ -50,7 +53,7 @@ Se pide específicamente el uso de React. Dará un valor adicional, aunque no es
 3. Diseño lo más similar posible a las imágenes mostradas más arriba.
 4. Tiempo en realizar la tarea.
 
-
+---
 
 
 
