@@ -11,7 +11,6 @@ Se adjunta un proyecto de nodejs, con una pequeña base de datos y una api ya de
 ## Installation
 
 - `yarn install`
-- `node server.js`
 
 Los requisitos son únicamente tener instalado una versión de node >= 4 y npm. Si todo funcionó correctamente, va a correr el servidor, y vas a poder acceder a través de cualquier navegador en la dirección: localhost:8080. Se debería visualizar el html ubicado en public/index.html.
 
@@ -46,7 +45,7 @@ La primera consiste en una lista paginada de productos con un buscador. Se debe 
 ---
 
 ### Criterios de evaluación
-Se pide específicamente el uso de React. Dará un valor adicional, aunque no es obligatorio, el uso además de Redux. Adicionalmente se evaluarán los siguientes puntos:
+Se pide específicamente el uso de React. Dará un valor adicional, aunque no es obligatorio, el uso además de Redux y test. Adicionalmente se evaluarán los siguientes puntos:
 
 1. Utilización de patrones, buenas prácticas en el código y arquitectura acorde.
 2. Documentación en el código.
