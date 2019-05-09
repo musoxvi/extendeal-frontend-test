@@ -30,7 +30,7 @@ Se debe visualizar la imagen del producto con su respectivos datos al lado, como
 
 ---
 
-![image_test](https://github.com/musoxvi/extendeal-frontend-test/tree/master/public/images/extendeal_test.png)
+![image_test](https://github.com/musoxvi/extendeal-frontend-test/blob/master/public/images/extendeal_test.png)
 
 
 ---
