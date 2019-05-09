@@ -24,13 +24,13 @@ Los requisitos son únicamente tener instalado una versión de node >= 4 y npm. 
 ---
 
 ## Desarrollo
-El objectivo del test es desarrollar 2 vistas utilizando la api incluida en el proyecto.
+El objectivo del test es desarrollar 2 componentes productList y shopingCart. productList consiste en una lista de productos con un buscador (utilizando la api incluida en el proyecto.) cuando el producto es mayor que 1 la cantidad se debe actualizar o añadir al componente shopingCart, a su vez este componente tiene un botón para eliminar este item de la lista del shopingCart y a su vez actualizar la cantidad de lista de productos en 0.
 
-La primera consiste en una lista paginada de productos con un buscador. Se debe visualizar la imagen del producto con su respectivos datos al lado, como se ve a continuación:
+Se debe visualizar la imagen del producto con su respectivos datos al lado, como se ve a continuación:
 
 ---
 
-#### IMAGEN
+![image_test](http://images//extendeal_test.png)
 
 
 ---
@@ -38,9 +38,7 @@ La primera consiste en una lista paginada de productos con un buscador. Se debe 
 | Método HTTP| Ruta| Descripción|
 | ----- | ---- |  ---- |
 | GET | /api/products | Devuelve la lista de todos los productos. Para paginar necesita recibir adicionalmente los parámetros `_page` y `_limit` : `api/products/?_page=1&_limit=5`. Para buscar, necesita el parámetro q: `/api/products/?q=texto` |
-| GET | /api/products/id | Devuelve únicamente el producto especificado por el id |
-| POST | /api/products | Crea un producto nuevo. Debe incluir el header `Content-Type: application/json`, y los parámetros en formato JSON. Ej: `{"name": "Algún nombre","price": "Algun precio","imageUrl": "Alguna URL"}` |
-| DELETE | /api/products/id | Elimina el producto correspondiente al id dado. |
+
 
 ---
 
@@ -48,15 +46,7 @@ La primera consiste en una lista paginada de productos con un buscador. Se debe 
 Se pide específicamente el uso de React. Dará un valor adicional, aunque no es obligatorio, el uso además de Redux y test. Adicionalmente se evaluarán los siguientes puntos:
 
 1. Utilización de patrones, buenas prácticas en el código y arquitectura acorde.
-2. Documentación en el código.
-3. Diseño lo más similar posible a las imágenes mostradas más arriba.
-4. Tiempo en realizar la tarea.
+2. Diseño lo más similar posible a las imágenes mostradas más arriba.
 
 ---
-
-
-
-
-
-
 
